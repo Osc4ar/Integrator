@@ -1,0 +1,70 @@
+<DOCTYPE! html>
+
+<html>
+
+    <head>
+        <title>Home - Integrar</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Lato:700,400' rel='stylesheet' type='text/css'>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"                         crossorigin="anonymous">
+
+        <!--Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-                 theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"         crossorigin="anonymous">
+        
+        <link rel = "stylesheet" type="text/css" href="css/Style.css">
+        
+        <script src="js/jquery-2.2.0.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"                           integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"                         crossorigin="anonymous"></script>
+
+        <script src = "js/Script.js"></script> 
+        <meta name = "viewport" content = "width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0">
+        
+        <meta charset="utf-8">
+        
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-default col-md-12">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Index.html">Integrator</a>
+            </div>
+        </nav>
+        
+        <section class="quita-float col-md-11 center-block text-center">
+            <div>
+                <img src = "Images/symbol.png" class = "col-md-2"/>
+            </div>
+            
+            <div class="col-lg-3">
+                <div class = "input-group input-group-lg col-lg-11 espacio-arriba">
+                    <span class = "input-group-addon" id = "basic-addon1">To</span>
+                    <input type = "text" id = "lims" placeholder = "Limite superior" class = "form-control" aria-describedby = "basic-addon1"/>
+                </div>
+            
+                <div class = "input-group col-lg-12 espacio-arriba-abajo">
+                    <span class = "input-group-addon" id = "basic-addon1">F(x)</span>
+                    <input type = "text" id = "fun" placeholder = "Function" class = "form-control" aria-describedby = "basic-addon1"/>
+                </div>
+                
+                <div class="input-group input-group-lg col-lg-11">
+                    <span class = "input-group-addon" id = "basic-addon1">From</span>
+                    <input type = "text" id = "limi" placeholder = "Limite inferior" class = "form-control" aria-describedby = "basic-addon1"/>
+                </div>
+            </div>
+            
+            <div class="col-md-3 center-block">
+                <button onclick = "main()" class="btn btn-primary btn-lg abcolor col-md-6 height" role = "button">=</button>
+            </div>
+                
+            <h1 id = "res" class="col-lg-2 bold"></h1>   
+            
+        </section>
+
+    </body>
+
+</html>

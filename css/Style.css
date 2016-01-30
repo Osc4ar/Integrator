@@ -1,0 +1,70 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.quita-float
+{
+    float: none;
+}
+
+.wborder
+{
+    border: none;
+}
+
+.circle
+{
+    border-radius: 100%;
+}
+
+.espacio-arriba
+{
+    margin-top: 20px;
+}
+
+.espacio-arriba-abajo
+{
+    margin: 60px 0px;
+}
+
+.bold
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.acolor
+{
+    color: #00BCD4;
+}
+
+.abcolor
+{
+    background-color: #00BCD4;
+}
+
+.divcolor
+{
+    background-color: #B6B6B6;
+}
+
+.lpcolor
+{
+    background-color: #E1BEE7;
+}
+
+.pcolor
+{
+    background-color: #9C27B0;
+}
+
+.white
+{
+    color: white;
+}
+
+.height
+{
+    height: 140px;
+}
